@@ -1,10 +1,7 @@
 body {
     height: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .portada {
@@ -18,6 +15,8 @@ body {
     text-align: center;
     margin: 10px;
     color: rgb(236, 236, 236);
+    text-decoration: underline;
+    text-decoration-color: yellow;
 }
 
 #imagen-portada {
@@ -25,12 +24,49 @@ body {
     height: 20%;
 }
 
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    /* Cuatro columnas de tamaño automático */
+    background-color: #333;
+    /* Color de fondo */
+}
+
+.navbar a {
+    color: white;
+    /* Color del texto */
+    text-align: center;
+    /* Centrar el texto */
+    padding: 14px 20px;
+    /* Espaciado interno */
+    text-decoration: none;
+    /* Eliminar subrayado */
+    border-right: 1px solid #bbb;
+    /* Separar con líneas verticales */
+}
+
+.navbar a:last-child {
+    border-right: none;
+    /* Eliminar la línea del último elemento */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    /* Fondo al pasar el mouse */
+    color: black;
+    /* Color del texto al pasar el mouse */
+}
+
+
 .container-menu-principal {
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     background-color: #1a1a1a;
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 1px;
+    width: 11%;
+    height: 100vh;
 
 }
 
