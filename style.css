@@ -48,6 +48,20 @@ body {
     padding: 5px;
     margin: 10px;
     margin-right: 50px;
+    border-radius: 20px;
+}
+
+
+.container-menu-principal li:hover {
+    background-color: rgb(147, 139, 129);
+
+}
+
+
+.container-menu-principal li a {
+    color: #1a1a1a;
+
+
 }
 
 
